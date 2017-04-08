@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<TestRun>
+	<FailedTests/>
+	<SuccessfulTests>
+		<Test id="1">
+			<Name>test/test_ledDriver.c::testDriver_LedsOffAfterCreate</Name>
+		</Test>
+		<Test id="2">
+			<Name>test/test_ledDriver.c::testDriver_TurnOnledUno</Name>
+		</Test>
+		<Test id="3">
+			<Name>test/test_ledDriver.c::testDriver_TurnOffledUno</Name>
+		</Test>
+		<Test id="4">
+			<Name>test/test_ledDriver.c::testDriver_TurnOnMultipleLeds</Name>
+		</Test>
+		<Test id="5">
+			<Name>test/test_ledDriver.c::testDriver_TurnOffMultipleLeds</Name>
+		</Test>
+		<Test id="6">
+			<Name>test/test_ledDriver.c::testDriver_TurnOffAnyLed</Name>
+		</Test>
+		<Test id="7">
+			<Name>test/test_ledDriver.c::testDriver_AllLedsOn</Name>
+		</Test>
+		<Test id="8">
+			<Name>test/test_ledDriver.c::testDriver_AllLedsOff</Name>
+		</Test>
+		<Test id="9">
+			<Name>test/test_ledDriver.c::testDriverValoresAltosyBajos</Name>
+		</Test>
+		<Test id="10">
+			<Name>test/test_ledDriver.c::testDriverValoresFueradeLimites</Name>
+		</Test>
+	</SuccessfulTests>
+	<IgnoredTests/>
+	<Statistics>
+		<Tests>10</Tests>
+		<Ignores>0</Ignores>
+		<FailuresTotal>0</FailuresTotal>
+		<Errors>0</Errors>
+		<Failures>0</Failures>
+	</Statistics>
+</TestRun>
