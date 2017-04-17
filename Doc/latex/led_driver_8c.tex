@@ -1,0 +1,129 @@
+\section{Referencia del Archivo src/led\-Driver.c}
+\label{led_driver_8c}\index{src/led\-Driver.\-c@{src/led\-Driver.\-c}}
+{\ttfamily \#include \char`\"{}led\-Driver.\-h\char`\"{}}\\*
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void {\bf Led\-Driver\-\_\-\-Destroy} (uint16\-\_\-t $\ast$leds\-Address)
+\item 
+void {\bf Led\-Driver\-\_\-\-Create} (uint16\-\_\-t $\ast$leds\-Address)
+\begin{DoxyCompactList}\small\item\em Led\-Driver\-\_\-\-Create instancia una dirección de memoria para utilizarla dentro de los tests. \end{DoxyCompactList}\item 
+void {\bf Led\-Driver\-\_\-\-Turn\-On} (int led\-Number, uint16\-\_\-t $\ast$leds\-Address)
+\begin{DoxyCompactList}\small\item\em Led\-Driver\-\_\-\-Turn\-On instancia una dirección de memoria para y un led para utilizar dentro de los tests. En este caso para encender un led. \end{DoxyCompactList}\item 
+void {\bf Led\-Driver\-\_\-\-Turn\-Off} (int led\-Number, uint16\-\_\-t $\ast$leds\-Address)
+\begin{DoxyCompactList}\small\item\em Led\-Driver\-\_\-\-Turn\-On instancia una dirección de memoria para y un led para utilizar dentro de los tests. En este caso para apagar un led. \end{DoxyCompactList}\item 
+void {\bf Led\-Driver\-\_\-\-Turn\-All\-On} (uint16\-\_\-t $\ast$leds\-Address)
+\begin{DoxyCompactList}\small\item\em Led\-Driver\-\_\-\-Turn\-All\-On instancia una dirección de memoria para utilizar dentro de los tests. En este caso para encender todos los leds. \end{DoxyCompactList}\item 
+void {\bf Led\-Driver\-\_\-\-Turn\-All\-Off} (uint16\-\_\-t $\ast$leds\-Address)
+\begin{DoxyCompactList}\small\item\em Led\-Driver\-\_\-\-Turn\-On instancia una dirección de memoria para utilizar dentro de los tests. En este caso para apagar todos los leds. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentación de las funciones}
+\index{led\-Driver.\-c@{led\-Driver.\-c}!Led\-Driver\-\_\-\-Create@{Led\-Driver\-\_\-\-Create}}
+\index{Led\-Driver\-\_\-\-Create@{Led\-Driver\-\_\-\-Create}!ledDriver.c@{led\-Driver.\-c}}
+\subsubsection[{Led\-Driver\-\_\-\-Create}]{\setlength{\rightskip}{0pt plus 5cm}void Led\-Driver\-\_\-\-Create (
+\begin{DoxyParamCaption}
+\item[{uint16\-\_\-t $\ast$}]{leds\-Address}
+\end{DoxyParamCaption}
+)}\label{led_driver_8c_a9963b14bac607d0dabefe35b008b728d}
+
+
+Led\-Driver\-\_\-\-Create instancia una dirección de memoria para utilizarla dentro de los tests. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em -\/$>$} & $\ast$leds\-Address \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+-\/$>$ ninguno
+\end{DoxyReturn}
+\index{led\-Driver.\-c@{led\-Driver.\-c}!Led\-Driver\-\_\-\-Destroy@{Led\-Driver\-\_\-\-Destroy}}
+\index{Led\-Driver\-\_\-\-Destroy@{Led\-Driver\-\_\-\-Destroy}!ledDriver.c@{led\-Driver.\-c}}
+\subsubsection[{Led\-Driver\-\_\-\-Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void Led\-Driver\-\_\-\-Destroy (
+\begin{DoxyParamCaption}
+\item[{uint16\-\_\-t $\ast$}]{leds\-Address}
+\end{DoxyParamCaption}
+)}\label{led_driver_8c_a168893bf6f82dbb9c9757df952eefb53}
+\index{led\-Driver.\-c@{led\-Driver.\-c}!Led\-Driver\-\_\-\-Turn\-All\-Off@{Led\-Driver\-\_\-\-Turn\-All\-Off}}
+\index{Led\-Driver\-\_\-\-Turn\-All\-Off@{Led\-Driver\-\_\-\-Turn\-All\-Off}!ledDriver.c@{led\-Driver.\-c}}
+\subsubsection[{Led\-Driver\-\_\-\-Turn\-All\-Off}]{\setlength{\rightskip}{0pt plus 5cm}void Led\-Driver\-\_\-\-Turn\-All\-Off (
+\begin{DoxyParamCaption}
+\item[{uint16\-\_\-t $\ast$}]{leds\-Address}
+\end{DoxyParamCaption}
+)}\label{led_driver_8c_a469cc51a05456d5a0afc6d07a94567c3}
+
+
+Led\-Driver\-\_\-\-Turn\-On instancia una dirección de memoria para utilizar dentro de los tests. En este caso para apagar todos los leds. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em -\/$>$} & $\ast$leds\-Address Dirección de memoria usada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+-\/$>$ ninguno
+\end{DoxyReturn}
+\index{led\-Driver.\-c@{led\-Driver.\-c}!Led\-Driver\-\_\-\-Turn\-All\-On@{Led\-Driver\-\_\-\-Turn\-All\-On}}
+\index{Led\-Driver\-\_\-\-Turn\-All\-On@{Led\-Driver\-\_\-\-Turn\-All\-On}!ledDriver.c@{led\-Driver.\-c}}
+\subsubsection[{Led\-Driver\-\_\-\-Turn\-All\-On}]{\setlength{\rightskip}{0pt plus 5cm}void Led\-Driver\-\_\-\-Turn\-All\-On (
+\begin{DoxyParamCaption}
+\item[{uint16\-\_\-t $\ast$}]{leds\-Address}
+\end{DoxyParamCaption}
+)}\label{led_driver_8c_a3e37fbfa89c0d1bb13a5c1dd639c6cda}
+
+
+Led\-Driver\-\_\-\-Turn\-All\-On instancia una dirección de memoria para utilizar dentro de los tests. En este caso para encender todos los leds. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em -\/$>$} & $\ast$leds\-Address Dirección de memoria usada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+-\/$>$ ninguno
+\end{DoxyReturn}
+\index{led\-Driver.\-c@{led\-Driver.\-c}!Led\-Driver\-\_\-\-Turn\-Off@{Led\-Driver\-\_\-\-Turn\-Off}}
+\index{Led\-Driver\-\_\-\-Turn\-Off@{Led\-Driver\-\_\-\-Turn\-Off}!ledDriver.c@{led\-Driver.\-c}}
+\subsubsection[{Led\-Driver\-\_\-\-Turn\-Off}]{\setlength{\rightskip}{0pt plus 5cm}void Led\-Driver\-\_\-\-Turn\-Off (
+\begin{DoxyParamCaption}
+\item[{int}]{led\-Number, }
+\item[{uint16\-\_\-t $\ast$}]{leds\-Address}
+\end{DoxyParamCaption}
+)}\label{led_driver_8c_a4ab46a6ecf7a96a4932f5a700bdf3d13}
+
+
+Led\-Driver\-\_\-\-Turn\-On instancia una dirección de memoria para y un led para utilizar dentro de los tests. En este caso para apagar un led. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em -\/$>$} & $\ast$led\-Number Número de led a probar. \\
+\hline
+{\em -\/$>$} & $\ast$leds\-Address Dirección de memoria usada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+-\/$>$ ninguno
+\end{DoxyReturn}
+\index{led\-Driver.\-c@{led\-Driver.\-c}!Led\-Driver\-\_\-\-Turn\-On@{Led\-Driver\-\_\-\-Turn\-On}}
+\index{Led\-Driver\-\_\-\-Turn\-On@{Led\-Driver\-\_\-\-Turn\-On}!ledDriver.c@{led\-Driver.\-c}}
+\subsubsection[{Led\-Driver\-\_\-\-Turn\-On}]{\setlength{\rightskip}{0pt plus 5cm}void Led\-Driver\-\_\-\-Turn\-On (
+\begin{DoxyParamCaption}
+\item[{int}]{led\-Number, }
+\item[{uint16\-\_\-t $\ast$}]{leds\-Address}
+\end{DoxyParamCaption}
+)}\label{led_driver_8c_a1620d685da7a714e5432b1ad7c194de7}
+
+
+Led\-Driver\-\_\-\-Turn\-On instancia una dirección de memoria para y un led para utilizar dentro de los tests. En este caso para encender un led. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em -\/$>$} & $\ast$led\-Number Número de led a probar. \\
+\hline
+{\em -\/$>$} & $\ast$leds\-Address Dirección de memoria usada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+-\/$>$ ninguno
+\end{DoxyReturn}

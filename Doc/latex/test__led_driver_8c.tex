@@ -1,0 +1,299 @@
+\section{Referencia del Archivo test/test\-\_\-led\-Driver.c}
+\label{test__led_driver_8c}\index{test/test\-\_\-led\-Driver.\-c@{test/test\-\_\-led\-Driver.\-c}}
+{\ttfamily \#include \char`\"{}unity.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}led\-Driver.\-h\char`\"{}}\\*
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void {\bf set\-Up} ()
+\item 
+void {\bf tear\-Down} ()
+\item 
+void {\bf test\-Driver\-\_\-\-Leds\-Off\-After\-Create} ()
+\begin{DoxyCompactList}\small\item\em Test 1 Todos los leds deben estar apagados después de inicializar el driver. Se prueba con la variable virtual\-Leds\-Tx que es una dirección de memoria. virtual\-Leds\-Tx=0x\-F\-F\-F\-F inicializa todos los leds en 1. \end{DoxyCompactList}\item 
+void {\bf test\-Driver\-\_\-\-Turn\-Onled\-Uno} ()
+\begin{DoxyCompactList}\small\item\em Test 2 Un led puede ser encendido individualmente virtual\-Leds\-Tx=0x0001 inicializa el led 1 e 1. \end{DoxyCompactList}\item 
+void {\bf test\-Driver\-\_\-\-Turn\-Offled\-Uno} ()
+\begin{DoxyCompactList}\small\item\em Test 3 Un led puede ser apagado individualmente. \end{DoxyCompactList}\item 
+void {\bf test\-Driver\-\_\-\-Turn\-On\-Multiple\-Leds} ()
+\begin{DoxyCompactList}\small\item\em Test 4a Múltiple leds pueden ser apagados. \end{DoxyCompactList}\item 
+void {\bf test\-Driver\-\_\-\-Turn\-Off\-Multiple\-Leds} ()
+\begin{DoxyCompactList}\small\item\em Test 4b Múltiple leds pueden ser encendidos. \end{DoxyCompactList}\item 
+void {\bf test\-Driver\-\_\-\-Turn\-Off\-Any\-Led} ()
+\begin{DoxyCompactList}\small\item\em Test 5 Múltiple leds pueden ser encendidos. \end{DoxyCompactList}\item 
+void {\bf test\-Driver\-\_\-\-All\-Leds\-On} ()
+\begin{DoxyCompactList}\small\item\em Test 6 Encender todos los leds. \end{DoxyCompactList}\item 
+void {\bf test\-Driver\-\_\-\-All\-Leds\-Off} ()
+\begin{DoxyCompactList}\small\item\em Test 7 Apagar todos los leds. \end{DoxyCompactList}\item 
+void {\bf test\-Driver\-Valores\-Altosy\-Bajos} ()
+\begin{DoxyCompactList}\small\item\em Test 8 Verificación de valores límites. \end{DoxyCompactList}\item 
+void {\bf test\-Driver\-Valores\-Fuerade\-Limites} ()
+\begin{DoxyCompactList}\small\item\em Test 9 Verificación de valores fuera de límites. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+uint16\-\_\-t {\bf address}
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentación de las funciones}
+\index{test\-\_\-led\-Driver.\-c@{test\-\_\-led\-Driver.\-c}!set\-Up@{set\-Up}}
+\index{set\-Up@{set\-Up}!test_ledDriver.c@{test\-\_\-led\-Driver.\-c}}
+\subsubsection[{set\-Up}]{\setlength{\rightskip}{0pt plus 5cm}void set\-Up (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{test__led_driver_8c_a63326a1b70b6e3f070e51687798e02de}
+\textbackslash{} address es una variable usada para asignar un valor nulo \index{test\-\_\-led\-Driver.\-c@{test\-\_\-led\-Driver.\-c}!tear\-Down@{tear\-Down}}
+\index{tear\-Down@{tear\-Down}!test_ledDriver.c@{test\-\_\-led\-Driver.\-c}}
+\subsubsection[{tear\-Down}]{\setlength{\rightskip}{0pt plus 5cm}void tear\-Down (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{test__led_driver_8c_ab804e0f66def63262c1d6b4e3d2a2bd7}
+\index{test\-\_\-led\-Driver.\-c@{test\-\_\-led\-Driver.\-c}!test\-Driver\-\_\-\-All\-Leds\-Off@{test\-Driver\-\_\-\-All\-Leds\-Off}}
+\index{test\-Driver\-\_\-\-All\-Leds\-Off@{test\-Driver\-\_\-\-All\-Leds\-Off}!test_ledDriver.c@{test\-\_\-led\-Driver.\-c}}
+\subsubsection[{test\-Driver\-\_\-\-All\-Leds\-Off}]{\setlength{\rightskip}{0pt plus 5cm}void test\-Driver\-\_\-\-All\-Leds\-Off (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{test__led_driver_8c_a09ea6e60f9d9b329e836a46014ac37f2}
+
+
+Test 7 Apagar todos los leds. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em En\mbox{]}} & Ninguno \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em -\/$>$} & Ninguno \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+-\/$>$ Ninguno
+\end{DoxyReturn}
+\index{test\-\_\-led\-Driver.\-c@{test\-\_\-led\-Driver.\-c}!test\-Driver\-\_\-\-All\-Leds\-On@{test\-Driver\-\_\-\-All\-Leds\-On}}
+\index{test\-Driver\-\_\-\-All\-Leds\-On@{test\-Driver\-\_\-\-All\-Leds\-On}!test_ledDriver.c@{test\-\_\-led\-Driver.\-c}}
+\subsubsection[{test\-Driver\-\_\-\-All\-Leds\-On}]{\setlength{\rightskip}{0pt plus 5cm}void test\-Driver\-\_\-\-All\-Leds\-On (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{test__led_driver_8c_ac3b1316fdd325a6b503a65a0d97900ef}
+
+
+Test 6 Encender todos los leds. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em En\mbox{]}} & Ninguno \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em -\/$>$} & Ninguno \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+-\/$>$ Ninguno
+\end{DoxyReturn}
+\index{test\-\_\-led\-Driver.\-c@{test\-\_\-led\-Driver.\-c}!test\-Driver\-\_\-\-Leds\-Off\-After\-Create@{test\-Driver\-\_\-\-Leds\-Off\-After\-Create}}
+\index{test\-Driver\-\_\-\-Leds\-Off\-After\-Create@{test\-Driver\-\_\-\-Leds\-Off\-After\-Create}!test_ledDriver.c@{test\-\_\-led\-Driver.\-c}}
+\subsubsection[{test\-Driver\-\_\-\-Leds\-Off\-After\-Create}]{\setlength{\rightskip}{0pt plus 5cm}void test\-Driver\-\_\-\-Leds\-Off\-After\-Create (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{test__led_driver_8c_aa211effae21c88a44ea8ffbacd97ef92}
+
+
+Test 1 Todos los leds deben estar apagados después de inicializar el driver. Se prueba con la variable virtual\-Leds\-Tx que es una dirección de memoria. virtual\-Leds\-Tx=0x\-F\-F\-F\-F inicializa todos los leds en 1. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em En\mbox{]}} & Ninguno \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em -\/$>$} & Ninguno \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+-\/$>$ Ninguno
+\end{DoxyReturn}
+\index{test\-\_\-led\-Driver.\-c@{test\-\_\-led\-Driver.\-c}!test\-Driver\-\_\-\-Turn\-Off\-Any\-Led@{test\-Driver\-\_\-\-Turn\-Off\-Any\-Led}}
+\index{test\-Driver\-\_\-\-Turn\-Off\-Any\-Led@{test\-Driver\-\_\-\-Turn\-Off\-Any\-Led}!test_ledDriver.c@{test\-\_\-led\-Driver.\-c}}
+\subsubsection[{test\-Driver\-\_\-\-Turn\-Off\-Any\-Led}]{\setlength{\rightskip}{0pt plus 5cm}void test\-Driver\-\_\-\-Turn\-Off\-Any\-Led (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{test__led_driver_8c_a5eebf94cab76ac3426a6fc3c4d1d33ca}
+
+
+Test 5 Múltiple leds pueden ser encendidos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em En\mbox{]}} & Ninguno \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em -\/$>$} & Ninguno \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+-\/$>$ Ninguno
+\end{DoxyReturn}
+\index{test\-\_\-led\-Driver.\-c@{test\-\_\-led\-Driver.\-c}!test\-Driver\-\_\-\-Turn\-Offled\-Uno@{test\-Driver\-\_\-\-Turn\-Offled\-Uno}}
+\index{test\-Driver\-\_\-\-Turn\-Offled\-Uno@{test\-Driver\-\_\-\-Turn\-Offled\-Uno}!test_ledDriver.c@{test\-\_\-led\-Driver.\-c}}
+\subsubsection[{test\-Driver\-\_\-\-Turn\-Offled\-Uno}]{\setlength{\rightskip}{0pt plus 5cm}void test\-Driver\-\_\-\-Turn\-Offled\-Uno (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{test__led_driver_8c_a0062067db4c10f02186b16a3f0ccf316}
+
+
+Test 3 Un led puede ser apagado individualmente. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em En\mbox{]}} & Ninguno \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em -\/$>$} & Ninguno \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+-\/$>$ Ninguno
+\end{DoxyReturn}
+\index{test\-\_\-led\-Driver.\-c@{test\-\_\-led\-Driver.\-c}!test\-Driver\-\_\-\-Turn\-Off\-Multiple\-Leds@{test\-Driver\-\_\-\-Turn\-Off\-Multiple\-Leds}}
+\index{test\-Driver\-\_\-\-Turn\-Off\-Multiple\-Leds@{test\-Driver\-\_\-\-Turn\-Off\-Multiple\-Leds}!test_ledDriver.c@{test\-\_\-led\-Driver.\-c}}
+\subsubsection[{test\-Driver\-\_\-\-Turn\-Off\-Multiple\-Leds}]{\setlength{\rightskip}{0pt plus 5cm}void test\-Driver\-\_\-\-Turn\-Off\-Multiple\-Leds (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{test__led_driver_8c_a31c6dd361e2f9558a27acd5511d711fc}
+
+
+Test 4b Múltiple leds pueden ser encendidos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em En\mbox{]}} & Ninguno \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em -\/$>$} & Ninguno \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+-\/$>$ Ninguno
+\end{DoxyReturn}
+\index{test\-\_\-led\-Driver.\-c@{test\-\_\-led\-Driver.\-c}!test\-Driver\-\_\-\-Turn\-Onled\-Uno@{test\-Driver\-\_\-\-Turn\-Onled\-Uno}}
+\index{test\-Driver\-\_\-\-Turn\-Onled\-Uno@{test\-Driver\-\_\-\-Turn\-Onled\-Uno}!test_ledDriver.c@{test\-\_\-led\-Driver.\-c}}
+\subsubsection[{test\-Driver\-\_\-\-Turn\-Onled\-Uno}]{\setlength{\rightskip}{0pt plus 5cm}void test\-Driver\-\_\-\-Turn\-Onled\-Uno (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{test__led_driver_8c_a24bcec5b1dd32382cd186d7e85ae00af}
+
+
+Test 2 Un led puede ser encendido individualmente virtual\-Leds\-Tx=0x0001 inicializa el led 1 e 1. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em En\mbox{]}} & Ninguno \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em -\/$>$} & Ninguno \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+-\/$>$ Ninguno
+\end{DoxyReturn}
+\index{test\-\_\-led\-Driver.\-c@{test\-\_\-led\-Driver.\-c}!test\-Driver\-\_\-\-Turn\-On\-Multiple\-Leds@{test\-Driver\-\_\-\-Turn\-On\-Multiple\-Leds}}
+\index{test\-Driver\-\_\-\-Turn\-On\-Multiple\-Leds@{test\-Driver\-\_\-\-Turn\-On\-Multiple\-Leds}!test_ledDriver.c@{test\-\_\-led\-Driver.\-c}}
+\subsubsection[{test\-Driver\-\_\-\-Turn\-On\-Multiple\-Leds}]{\setlength{\rightskip}{0pt plus 5cm}void test\-Driver\-\_\-\-Turn\-On\-Multiple\-Leds (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{test__led_driver_8c_a6ae8cdaf6349f859a2766ec6f3b7d633}
+
+
+Test 4a Múltiple leds pueden ser apagados. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em En\mbox{]}} & Ninguno \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em -\/$>$} & Ninguno \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+-\/$>$ Ninguno
+\end{DoxyReturn}
+\index{test\-\_\-led\-Driver.\-c@{test\-\_\-led\-Driver.\-c}!test\-Driver\-Valores\-Altosy\-Bajos@{test\-Driver\-Valores\-Altosy\-Bajos}}
+\index{test\-Driver\-Valores\-Altosy\-Bajos@{test\-Driver\-Valores\-Altosy\-Bajos}!test_ledDriver.c@{test\-\_\-led\-Driver.\-c}}
+\subsubsection[{test\-Driver\-Valores\-Altosy\-Bajos}]{\setlength{\rightskip}{0pt plus 5cm}void test\-Driver\-Valores\-Altosy\-Bajos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{test__led_driver_8c_adc0841105d3bf68be0be4e316fd8c43c}
+
+
+Test 8 Verificación de valores límites. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em En\mbox{]}} & Ninguno \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em -\/$>$} & Ninguno \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+-\/$>$ Ninguno
+\end{DoxyReturn}
+\index{test\-\_\-led\-Driver.\-c@{test\-\_\-led\-Driver.\-c}!test\-Driver\-Valores\-Fuerade\-Limites@{test\-Driver\-Valores\-Fuerade\-Limites}}
+\index{test\-Driver\-Valores\-Fuerade\-Limites@{test\-Driver\-Valores\-Fuerade\-Limites}!test_ledDriver.c@{test\-\_\-led\-Driver.\-c}}
+\subsubsection[{test\-Driver\-Valores\-Fuerade\-Limites}]{\setlength{\rightskip}{0pt plus 5cm}void test\-Driver\-Valores\-Fuerade\-Limites (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{test__led_driver_8c_a3a1c0268dd32b428d2ffaa83b48e9788}
+
+
+Test 9 Verificación de valores fuera de límites. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em En\mbox{]}} & Ninguno \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em -\/$>$} & Ninguno \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+-\/$>$ Ninguno
+\end{DoxyReturn}
+
+
+\subsection{Documentación de las variables}
+\index{test\-\_\-led\-Driver.\-c@{test\-\_\-led\-Driver.\-c}!address@{address}}
+\index{address@{address}!test_ledDriver.c@{test\-\_\-led\-Driver.\-c}}
+\subsubsection[{address}]{\setlength{\rightskip}{0pt plus 5cm}uint16\-\_\-t address}\label{test__led_driver_8c_a643d30df67a67c5915fde941c934f9f8}
